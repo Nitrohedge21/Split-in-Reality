@@ -45,10 +45,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -83,29 +81,29 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1476}
-    - Class: 114
       Script: {instanceID: 1478}
     - Class: 114
-      Script: {instanceID: 1840}
+      Script: {instanceID: 1480}
     - Class: 114
-      Script: {instanceID: 2222}
+      Script: {instanceID: 1842}
     - Class: 114
-      Script: {instanceID: 2650}
+      Script: {instanceID: 2224}
     - Class: 114
-      Script: {instanceID: 2812}
+      Script: {instanceID: 2652}
     - Class: 114
-      Script: {instanceID: 2860}
+      Script: {instanceID: 2814}
     - Class: 114
-      Script: {instanceID: 3032}
+      Script: {instanceID: 2862}
     - Class: 114
-      Script: {instanceID: 3392}
+      Script: {instanceID: 3034}
     - Class: 114
-      Script: {instanceID: 4732}
+      Script: {instanceID: 3394}
     - Class: 114
-      Script: {instanceID: 5108}
+      Script: {instanceID: 4734}
     - Class: 114
-      Script: {instanceID: 5382}
+      Script: {instanceID: 5110}
+    - Class: 114
+      Script: {instanceID: 5384}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -156,51 +154,45 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 644}
-    - Class: 114
-      Script: {instanceID: 1476}
+      Script: {instanceID: 646}
     - Class: 114
       Script: {instanceID: 1478}
     - Class: 114
-      Script: {instanceID: 1840}
+      Script: {instanceID: 1480}
     - Class: 114
-      Script: {instanceID: 2046}
+      Script: {instanceID: 2048}
     - Class: 114
-      Script: {instanceID: 2230}
+      Script: {instanceID: 2232}
     - Class: 114
-      Script: {instanceID: 2294}
+      Script: {instanceID: 2296}
     - Class: 114
-      Script: {instanceID: 2416}
+      Script: {instanceID: 2418}
     - Class: 114
-      Script: {instanceID: 2650}
+      Script: {instanceID: 2652}
     - Class: 114
-      Script: {instanceID: 2672}
+      Script: {instanceID: 2674}
     - Class: 114
-      Script: {instanceID: 2812}
+      Script: {instanceID: 2814}
     - Class: 114
-      Script: {instanceID: 2860}
+      Script: {instanceID: 3034}
     - Class: 114
-      Script: {instanceID: 3032}
+      Script: {instanceID: 3128}
     - Class: 114
-      Script: {instanceID: 3126}
+      Script: {instanceID: 3230}
     - Class: 114
-      Script: {instanceID: 3228}
+      Script: {instanceID: 3296}
     - Class: 114
-      Script: {instanceID: 3294}
+      Script: {instanceID: 3436}
     - Class: 114
-      Script: {instanceID: 3392}
+      Script: {instanceID: 3626}
     - Class: 114
-      Script: {instanceID: 3434}
+      Script: {instanceID: 3848}
     - Class: 114
-      Script: {instanceID: 3624}
+      Script: {instanceID: 4396}
     - Class: 114
-      Script: {instanceID: 3846}
+      Script: {instanceID: 4608}
     - Class: 114
-      Script: {instanceID: 4394}
-    - Class: 114
-      Script: {instanceID: 4606}
-    - Class: 114
-      Script: {instanceID: 5382}
+      Script: {instanceID: 5384}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -834,5 +826,5 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Main Menu.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/GitHub/Racoon_Game/Unnamed Racoon Game/Builds/Windows/x86/Playtest
-    Demo v1/Unnamed Racoon Game.exe
+  playerPath: D:/Racoon Game Builds/Racoon-Game-Builds/Windows/x86/Playtest Demo
+    v2/Unnamed Racoon Game.exe
