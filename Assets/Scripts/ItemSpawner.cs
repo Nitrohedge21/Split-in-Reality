@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ItemSpawner : MonoBehaviour
 {
+    [SerializeField] private AudioSource SFX;
+
     public GameObject SpawnedObject;
     public bool playerInRange;
 
@@ -30,6 +32,7 @@ public class ItemSpawner : MonoBehaviour
             
             Debug.Log("Testing");
             Instantiate(SpawnedObject, gameObject.transform.position, gameObject.transform.rotation, transform.parent = null);
+            SFX.Play();
             Debug.Log("Raw Meat spawned in.");
         }
     }

@@ -10,6 +10,9 @@ public class Dialog : MonoBehaviour
     public string dialog;
     public bool playerInRange;
 
+    [SerializeField] private AudioSource DialogFX;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,11 +26,13 @@ public class Dialog : MonoBehaviour
         {
             if (dialogBox.activeInHierarchy)
             {
+                
                 dialogBox.SetActive(false);
             }
             
             else
             {
+                DialogFX.Play();
                 dialogBox.SetActive(true);
                 dialogText.text = dialog;
                 //Makes the dialog box appear, now gonna try to figure out how to make it so that a small bubble appears on the npc's head
